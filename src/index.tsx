@@ -7,6 +7,8 @@ import { RecoilRoot } from 'recoil';
 import App from './App';
 import GlobalStyle from './global-styles';
 
+import "./styles/index.scss";
+
 const queryClient = new QueryClient();
 //react-query, react-query-devtools, recoil, globalstyle, react-router-dom
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
